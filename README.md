@@ -30,7 +30,7 @@ In this section, we preprocessed the data by performing the following steps:
 
 - Dropped irrelevant columns (e.g., `ID`) to eliminate noise from the data.
 - One-hot encoded the `Reason for Absence` column using `pd.get_dummies()` to convert categorical data into numerical format.
-- Grouped reasons into 4 types (`Reason_1` to `Reason_4`) based on column index ranges.
+- Grouped reasons into 4 types (`Reason_1` to `Reason_4`) based on column index ranges and reasons for absence image, grouping similar reasons into one class.
 - Simplified and extracted `Month` and `Day of the Week` from the date column.
 - Mapped `Education` levels to binary (0 = basic, 1 = higher education).
 - Reordered and renamed columns for better readability and model compatibility.
