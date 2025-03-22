@@ -6,7 +6,7 @@ This project predicts employee absenteeism using logistic regression. The soluti
 
 This repository includes four Jupyter Notebooks that walk through the entire model-building lifecycle:
 
-Notebook	Purpose
+Notebook Purpose
 1_data_preprocessing.ipynb	Data cleaning and feature engineering
 2_baseline_model.ipynb	Baseline logistic regression model
 3_model_improvements.ipynb	Regularization and threshold tuning
@@ -22,7 +22,7 @@ The goal is to predict whether an employee will be excessively absent (above the
 Key steps:
 	•	Dropped irrelevant columns (e.g., ID, nominal columns)
 	•	One-hot encoded Reason for Absence, grouped into 4 reason types (Reason_1 to Reason_4)
-  • Simplified and extracted month and weekday values from time column 
+        • Simplified and extracted month and weekday values from time column 
 	•	Simplified Education into binary (basic vs higher)
 	•	Reordered and renamed columns for clarity
 	•	Created final cleaned dataframe for modeling (saved as **employee_preprocessed_data.csv**)
@@ -47,8 +47,8 @@ Recall for absentees (Class 1): 0.70
 Regularization:
 	•	Tried both L1 and L2 regularized logistic regression
 	•	Minimal performance improvement due to:
-	 •	Balanced dataset
-	 •	No significant overfitting
+	•	Balanced dataset
+	•	No significant overfitting
 
 Threshold Tuning:
 	•	Plotted precision vs recall for different thresholds
