@@ -4,7 +4,7 @@ This project predicts employee absenteeism using logistic regression. The soluti
 
 🧱 Project Structure
 
-This repository includes four Jupyter Notebooks that walk through the entire model-building lifecycle:
+This repository includes four Jupyter Notebooks that walk through the entire model-building lifecycle: 
 
 Notebook Purpose
 1_data_preprocessing.ipynb	Data cleaning and feature engineering
